@@ -5,10 +5,17 @@ The capstone will build upon the knowledge you have gained in the course in orde
 
 # Commands used
 
+# Truffle
+
+```
+truffle compile
+
+truffle test
+```
+
 # Zokrates
 
 ```zokrates compile -i square.code```
-
 
 ```zokrates setup```
 

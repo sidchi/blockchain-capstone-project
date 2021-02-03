@@ -44,22 +44,12 @@ function addSolution(bytes32 _hash, address _caller) internal {
 }
 
 function solutionUsed(uint[2] memory a,
-uint[2] memory a_p,
 uint[2][2] memory b,
-uint[2] memory b_p,
 uint[2] memory c,
-uint[2] memory c_p,
-uint[2] memory h,
-uint[2] memory k,
 uint[2] memory input) view public returns(bool) {
   bytes32 _hash = keccak256(abi.encodePacked(a,
-  a_p,
   b,
-  b_p,
   c,
-  c_p,
-  h,
-  k,
   input));
   return uniqueSolutions[_hash];
 }
@@ -70,23 +60,13 @@ uint[2] memory input) view public returns(bool) {
 
   function mintNFT(address to, uint tokenId,
         uint[2] memory a,
-        uint[2] memory a_p,
         uint[2][2] memory b,
-        uint[2] memory b_p,
         uint[2] memory c,
-        uint[2] memory c_p,
-        uint[2] memory h,
-        uint[2] memory k,
         uint[2] memory input) public {
           require(solutionUsed(
           a,
-          a_p,
           b,
-          b_p,
           c,
-          c_p,
-          h,
-          k,
           input) == false, "Solution has already been used.");
           require(verifierContract.verifyTx(
           a,
@@ -94,13 +74,8 @@ uint[2] memory input) view public returns(bool) {
           c,
           input), "Solution is not correct.");
           bytes32 _hash = keccak256(abi.encodePacked(a,
-          a_p,
           b,
-          b_p,
           c,
-          c_p,
-          h,
-          k,
           input));
           addSolution(_hash, msg.sender);
           mint(to, tokenId);
