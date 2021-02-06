@@ -260,18 +260,18 @@ Summary
 * [ZoKrates](https://github.com/Zokrates/ZoKrates)
 
 # Acknowledgement(s)
-Basic Queries / Checks
+* Basic Queries / Checks
+  
+  https://medium.com/@andresaaap/capstone-real-estate-marketplace-project-faq-udacity-blockchain-69fe13b4c14e
 
-https://medium.com/@andresaaap/capstone-real-estate-marketplace-project-faq-udacity-blockchain-69fe13b4c14e
+* Minting Script inspired/adapted from
 
-Minting Script inspired/adapted from
+  https://github.com/theod0sis/RealEstateMarketplace/blob/master/mint.js
 
-https://github.com/theod0sis/RealEstateMarketplace/blob/master/mint.js
+* Ether from Faucet
 
-Ether from Faucet
+  https://www.rinkeby.io/#faucet
 
-https://www.rinkeby.io/#faucet
+* Zokrates
 
-Zokrates
-
-https://github.com/Zokrates/ZoKrates
+  https://github.com/Zokrates/ZoKrates
