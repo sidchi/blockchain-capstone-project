@@ -5,7 +5,7 @@ The capstone will build upon the knowledge you have gained in the course in orde
 
 # Commands used
 
-# Truffle 
+## Truffle 
 
 ```
 truffle compile
@@ -236,7 +236,7 @@ Summary
 > Final cost:          0.06868085 ETH
 ```
 
-# Zokrates
+## Zokrates Commands
 
 ```zokrates compile -i square.code```
 
@@ -261,13 +261,17 @@ Summary
 
 # Acknowledgement(s)
 Basic Queries / Checks
+
 https://medium.com/@andresaaap/capstone-real-estate-marketplace-project-faq-udacity-blockchain-69fe13b4c14e
 
 Minting Script based on
+
 https://github.com/theod0sis/RealEstateMarketplace/blob/master/mint.js
 
 Ether from Faucet
+
 https://www.rinkeby.io/#faucet
 
 Zokrates
+
 https://github.com/Zokrates/ZoKrates
