@@ -5,7 +5,7 @@ The capstone will build upon the knowledge you have gained in the course in orde
 
 # Commands used
 
-# Truffle
+# Truffle 
 
 ```
 truffle compile
@@ -14,21 +14,21 @@ truffle test
 
 truffle migrate --reset
 
-TO RINKEBY
+FOR RINKEBY
 
 truffle migrate --network rinkeby
 ```
 
-## TRUFFLE TESTS
+## Truffle Tests
 
 ![Sale](images/test.png)
 
-## MINTING 10 TOKENS
+## Minting 10 Tokens
 ```
 node exec zokrates/code/square/minting.js
 ```
 
-### MINTED 10 
+### Minted 10 
 ```
 Transaction: 0xb5ba3631ffec7a4f70bf9b9383f53dfbc5c58fed5040c425175208bf1e08afb6
 Transaction: 0x5326463272e3067187c068ae043c8d89590791cd3205994fb4cf6ab0ecd78acb
@@ -259,6 +259,15 @@ Summary
 * [Docker](https://docs.docker.com/install/)
 * [ZoKrates](https://github.com/Zokrates/ZoKrates)
 
-# Acknowledgement
+# Acknowledgement(s)
+Basic Queries / Checks
+https://medium.com/@andresaaap/capstone-real-estate-marketplace-project-faq-udacity-blockchain-69fe13b4c14e
+
 Minting Script based on
 https://github.com/theod0sis/RealEstateMarketplace/blob/master/mint.js
+
+Ether from Faucet
+https://www.rinkeby.io/#faucet
+
+Zokrates
+https://github.com/Zokrates/ZoKrates
