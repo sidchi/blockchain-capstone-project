@@ -264,7 +264,7 @@ Basic Queries / Checks
 
 https://medium.com/@andresaaap/capstone-real-estate-marketplace-project-faq-udacity-blockchain-69fe13b4c14e
 
-Minting Script based on
+Minting Script inspired/adapted from
 
 https://github.com/theod0sis/RealEstateMarketplace/blob/master/mint.js
 
