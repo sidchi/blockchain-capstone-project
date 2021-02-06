@@ -1,2 +1,3 @@
 eth-contrats/build/**
 .secret
+node_modules/

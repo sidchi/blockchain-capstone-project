@@ -51,8 +51,12 @@ https://rinkeby.etherscan.io/tx/0x3945fa13abf87c184caeb10b93fd1f926b435889cd0c84
 Open Sea
 https://testnets.opensea.io/assets/0xad28beb95ca06355d6215ab30656b40bf287dabd/2
 
+
 ![Sale](images/1.png)
 
+https://testnets.opensea.io/assets/0xad28beb95ca06355d6215ab30656b40bf287dabd/7
+
+![Sale](images/2.png)
 
 ## Deployment to Rinkeby
 
@@ -254,3 +258,7 @@ Summary
 * [Interactive zero knowledge 3-colorability demonstration](http://web.mit.edu/~ezyang/Public/graph/svg.html)
 * [Docker](https://docs.docker.com/install/)
 * [ZoKrates](https://github.com/Zokrates/ZoKrates)
+
+# Acknowledgement
+Minting Script based on
+https://github.com/theod0sis/RealEstateMarketplace/blob/master/mint.js
